@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "products_service.js",
+  "sourceRoot": "",
+  "sources": [
+    "products_service.coffee"
+  ],
+  "names": [],
+  "mappings": ";AACA;EAAA,OAAA,CAAQ,QAAR,CAAA,CAAA,CACE,CAAC,GADH,CACO,QADP,CAEE,CAAC,GAFH,CAEO,aAFP,EAEsB;IAAC,GAAA,EAAK,qCAAN;GAFtB,CAGE,CAAC,GAHH,CAGO,YAHP,CAME,CAAC,MANH,CAMU;IAAC,IAAA,EAAM,KAAP;IAAc,IAAA,EAAM,IAApB;IAA0B,GAAA,EAAK,cAA/B;GANV;AAAA"
+}
