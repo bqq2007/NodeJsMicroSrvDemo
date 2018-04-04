@@ -6,4 +6,4 @@ require('seneca')()
   # listen for area:product messages
   # IMPORTANT: must match client
   .listen({type: 'tcp', port: 3004, pin: 'area:orders'})
-  .client({type: 'tcp', host: '10.99.20.234', port: 3002, pin: 'area:email'})
+  .client({type: 'tcp', port: 3002, pin: 'area:email'})

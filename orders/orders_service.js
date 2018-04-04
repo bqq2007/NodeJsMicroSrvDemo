@@ -8,7 +8,6 @@
     pin: 'area:orders'
   }).client({
     type: 'tcp',
-    host: '10.99.20.234',
     port: 3002,
     pin: 'area:email'
   });

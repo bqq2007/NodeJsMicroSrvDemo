@@ -18,6 +18,6 @@ seneca = require('seneca')()
   .use('entity')
   .use(SenecaWeb, senecaWebConfig)
   .use('front_end_api')
-  .client({type: 'tcp', host: '10.99.20.234', port: 3000, pin: 'area:product'})
-  .client({type: 'tcp', host: '10.99.20.234', port: 3004, pin: 'area:orders'})
+  .client({type: 'tcp', port: 3000, pin: 'area:product'})
+  .client({type: 'tcp', port: 3004, pin: 'area:orders'})
 
